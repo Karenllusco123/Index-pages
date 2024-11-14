@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Exclusivos</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Estilos de la cabecera */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        /* Estilos del contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Estilo para la sección de productos */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .product h2 {
+            margin: 20px 0;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .product button {
+            background-color: #0366d6;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .product button:hover {
+            background-color: #035b8f;
+        }
+
+        /* Estilo de pie de página */
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos de las animaciones */
+        .product:hover {
+            transform: translateY(-10px);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfumes Exclusivos</h1>
+        <p>Descubre una selección única de perfumes para cada ocasión</p>
+    </header>
+
+    <div class="container">
+        <!-- Sección de productos -->
+        <section class="products">
+            <!-- Producto 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300?text=Perfume+1" alt="Perfume 1">
+                <h2>Perfume Floral</h2>
+                <p>Una mezcla dulce y fresca de flores, ideal para el día a día.</p>
+                <button>Ver más</button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300?text=Perfume+2" alt="Perfume 2">
+                <h2>Perfume Amaderado</h2>
+                <p>Notas de madera y especias que aportan una elegancia atemporal.</p>
+                <button>Ver más</button>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300?text=Perfume+3" alt="Perfume 3">
+                <h2>Perfume Cítrico</h2>
+                <p>Refrescante y energizante, ideal para el verano.</p>
+                <button>Ver más</button>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300?text=Perfume+4" alt="Perfume 4">
+                <h2>Perfume Oriental</h2>
+                <p>Un aroma cálido y exótico para noches especiales.</p>
+                <button>Ver más</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Perfumes Exclusivos | Todos los derechos reservados</p>
+        <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Uso</a></p>
+    </footer>
+</body>
+</html>
